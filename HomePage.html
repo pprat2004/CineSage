@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineSage</title>
+    <link href="header.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/nextf-games" rel="stylesheet">
+    <link href="search-bar.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+    <link href="over-lay.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="details.css" rel="stylesheet">
+</head>
+
+<body>
+    
+<header>
+    <a href="HomePage.html"><img src="images/CineSage logo with the word prominently featured.png" class="logo"></a>
+    <h1>Your Personnel Movie g<span style="font-size: 50px;">AI</span>de</h1>
+</header>
+
+</div>
+
+    <div class="search-bar-container">
+        <p class="search-info">Search Your Next Vision<span style="color: yellow;">.</span></p>
+        <input type="text" autocomplete="off" id="search-movies" class="search-movies">
+        <ul id="suggestions"></ul>
+    </div>
+
+    <div id="loadingOverlay">
+        <img id="quoteImage" src="images/CineSage logo with the word prominently featured.png" style="width: 80px;
+        height: 80px;;
+        border-radius: 50%/50%;">
+        <div id="quote"></div>
+        <div style="margin-top:20px; font-size:14px;">Loading movie details...</div>
+      </div>
+
+    <div id="movieDetails"></div>
+
+
+    <script src="logic.js"></script>
+
+    <audio id="bgMusic" src="sounds/35mm-film-projector-start-99740.mp3" loop></audio>
+    <div id="overlayBlur"></div>
+</body>
+</html>

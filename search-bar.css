@@ -1,0 +1,79 @@
+body{
+    background-image: url(images/bg-image.jpg);
+    height: auto;
+}
+
+.search-bar-container{
+    position: relative;
+}
+
+.search-info{
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    font-family: 'Special Gothic Expanded One';
+    font-size: 90px;
+    color: white;
+}
+
+input{
+    width: 900px;
+    height: 30px;
+    font-family: 'Special Gothic Expanded One';
+    border-radius: 50px;
+    border: 1px solid black;
+    padding: 15px;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+}
+
+.search-movies{
+    transition: 1s;
+}
+
+.search-movies:hover{
+    border: 5px solid #143D60;
+    transition-duration: 1s;
+}
+
+
+#suggestions {
+    position: absolute;
+    width: 100%;
+    background: #09122C;
+    color: #F5C45E;
+    font-weight: bold;
+    font-family: 'Special Gothic Expanded One';
+    max-height: 400px;
+    z-index: 999;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    top: 340px;
+    overflow-y: auto;
+  }
+
+  #suggestions li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #FFE81F;
+    cursor: pointer;
+  }
+
+  #suggestions img {
+    width: 100px;
+    height: 140px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  #suggestions li:hover{
+    background: #293462;
+    color: #D61C4E;
+    transition: 1s;
+  }
+
+

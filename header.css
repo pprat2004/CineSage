@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F5C45E;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-left: 380px;
+    padding-top: 5px;
+    border-radius: 40px;
+}
+
+header{
+    background-color: #102E50;
+    font-family: 'NextF Games', sans-serif;
+    color: #e3dfb5;  
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1000;                                             
+}
+
+h1{
+    padding-left: 15px;
+    color: #FFD63A;
+}

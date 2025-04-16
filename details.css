@@ -1,0 +1,72 @@
+#movieDetails {
+    width: 600px;
+    height: 571px;
+    background: #102e5085;
+    padding: 25px;
+    font-family: 'Courier New';
+    margin-top: 80px;
+    text-align: center;
+    color: #F1DEC6;
+    display: none;
+    font-weight: 800;
+  }
+
+  #movieDetails img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .similar-btn{
+    position: absolute;
+    top: 660px;
+    left: 225px;
+    height: 35px;
+    width: 200px;
+    border-radius: 50px;
+    background: #09122C;
+    color: #F5C45E;
+    border: 1px solid #09122C;
+    padding: 5px;
+    font-family: 'NextF Games', sans-serif;
+    transition: 1s;
+  }
+
+  .similar-btn:hover{
+    background: #293462;
+    color: #D61C4E;
+    transition: 1s;
+    cursor: pointer;
+  }
+
+
+
+  #similarMoviesContainer {
+position: absolute;
+width: 500px;
+top: 90px;
+right: 0px;
+background: #102e5085;
+overflow-y: scroll;
+max-height: 610px;
+font-family: 'NextF Games', sans-serif;
+  }
+  
+  .similar-movie {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 440px;
+    align-items: center;
+    background: #102e5085;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .similar-movie:hover{
+    background: #293462;
+    color: #D61C4E;
+    transition: 1s;
+    cursor: pointer;
+  }
